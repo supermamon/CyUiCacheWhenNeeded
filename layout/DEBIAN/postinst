@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# This check is only to not perform uicache on the first time this 
+# tweak is installed. 
+if [ -f /var/mobile/.CyUicacheWhenNeeded ]; then
+    echo "CyUicacheWhenNeeded: > Thank you for using my tweak. - @supermamon"
+    rm /var/mobile/.CyUicacheWhenNeeded &>/dev/null
+    exit 0
+fi
+
+# commands to perform when triggered
+echo "CyUicacheWhenNeeded: > Running uicache..."
+uicache
+echo "CyUicacheWhenNeeded: > Done."

@@ -1,0 +1,9 @@
+Package: com.supermamon.cyuicachewhenneeded
+Name: CyUicacheWhenNeeded
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Tell Cydia to only execute uicache after tweak installation if needed.
+Maintainer: supermamon <at.supermamon@gmail.com>
+Author: supermamon <at.supermamon@gmail.com>
+Section: Tweaks
